@@ -25,9 +25,15 @@ h3 {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+a {
+    color: blue;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
 .content-box {
-    padding: 20px;
-    margin: 10px;
+    padding: 10px;
+    margin: 6px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
 }
