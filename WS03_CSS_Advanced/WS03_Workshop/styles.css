@@ -10,19 +10,20 @@ body {
 .transition-button {
     background-color: lightblue;
     padding: 10px 20px;
-    border: none;
+    border: 1 px solid #ccc;
+    font-family: 'Trebuchet MS', sans-serif;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
 
 .transition-button:hover {
-    background-color: lightcoral;
+    background-color: orangered;
 }
 
 .animation-box {
-    width: 50px;
-    height: 50px;
-    background-color: lightgreen;
+    width: 75px;
+    height: 75px;
+    background-color: green;
     position: relative;
     animation: move 2s infinite alternate;
 }
@@ -74,11 +75,17 @@ ul {
 }
 
 .pseudo-list li:nth-child(odd) {
-    background-color: lightgray;
+    background-color: coral;
+    font-size: 0.9em;
+    font-style: italic;
+    width: 25%;
 }
 
     .pseudo-list li:nth-child(even) {
-    background-color: white;
+        background-color: white;
+        font-size: 0.9em;
+        font-style: italic;
+        width: 25%;
     }
 
 table {
@@ -106,7 +113,7 @@ td {
 
 .filter-image {
     filter: grayscale(100%);
-    transition: filter 0.3s ease;
+    transition: filter 0.5s ease;
 }
 
     .filter-image:hover {
@@ -116,6 +123,7 @@ td {
 .quote {
     position: relative;
     padding-left: 20px;
+    font-size: 1.5em;
     font-style: italic;
 }
 
@@ -124,8 +132,8 @@ td {
         font-size: 40px;
         position: absolute;
         left: 0;
-        top: 0;
-        color: lightgray;
+        top: -20px;
+        color: green;
     }
 
 form {
