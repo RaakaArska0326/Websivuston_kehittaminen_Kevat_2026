@@ -6,6 +6,7 @@ p {
 
 body {
     background-color: lightblue;
+    line-height: 1.5;
 }
 
 header {
@@ -29,10 +30,18 @@ h2 {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+img {
+    text-align: center;
+}
+
+div {
+    margin: 8px 0;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 6px;
     width: 75%;
 }
 
@@ -47,7 +56,6 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
     width: 75%;
 }
 
@@ -80,4 +88,5 @@ h2 {
 
 footer {
     font-style: italic;
+    text-align: center;
 }
