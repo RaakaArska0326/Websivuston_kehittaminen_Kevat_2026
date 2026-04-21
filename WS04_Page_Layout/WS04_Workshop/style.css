@@ -12,6 +12,7 @@ body {
 header {
     background-color: whitesmoke;
     padding: 10px;
+    border: 2px solid green;
     width: 75%;
     text-align: left;
     font-size: 1.0em;
