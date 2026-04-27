@@ -1,0 +1,101 @@
+p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: green;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.div {
+    margin: 12px 0;
+}
+
+header {
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 2px solid brown;
+    width: 75%;
+    text-align: left;
+    font-size: 1.0em;
+}
+
+.responsive-nav .nav-list {
+    display: flex;
+    list-style: none;
+}
+
+    @media (max-width: 600px) {
+        .responsive-nav .nav-list {
+            display: none;
+        }
+
+        .responsive-nav .menu-toggle {
+            display: block;
+        }
+    }
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.responsive-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .column {
+        flex: 1;
+        padding: 20px;
+        background-color: chocolate;
+        color: white;
+    }
+
+    @media (max-width: 600px) {
+        .column {
+            flex: 100%;
+        }
+    }
+
+.media-query-box {
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    @media (max-width: 600px) {
+        .media-query-box {
+            background-color: lightcoral;
+        }
+    }
+
+    @media (min-width: 601px) {
+        .media-query-box {
+            background-color: lightblue;
+        }
+    }
+    
+footer {
+    font-style: italic;
+    text-align: center;
+}
